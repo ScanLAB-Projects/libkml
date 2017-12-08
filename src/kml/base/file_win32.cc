@@ -40,7 +40,7 @@ namespace kmlbase {
 // Internal to the win32 file class. We need a conversion from string to
 // LPCWSTR.
 static std::wstring Str2Wstr(const string& str) {
-  std::wstring wstr(str.length(), L'');
+  std::wstring wstr(str.length(), L'\0');
   std::copy(str.begin(), str.end(), wstr.begin());
   return wstr;
 }
@@ -60,7 +60,7 @@ bool File::Exists(const string& full_path) {
     return false;
   }
   std::wstring wstr = Str2Wstr(full_path);
-  DWORD attrs = ::GetFileAttributes(wstr.c_str());
+  DWORD attrs = ::GetFileAttributes(full_path.c_str());
   return (attrs != INVALID_FILE_ATTRIBUTES) &&
     ((attrs & FILE_ATTRIBUTE_DIRECTORY) == 0);
 }
@@ -70,7 +70,7 @@ bool File::Delete(const string& filepath) {
     return false;
   }
   std::wstring wstr = Str2Wstr(filepath);
-  return ::DeleteFile(wstr.c_str()) ? true : false;
+  return ::DeleteFile(filepath.c_str()) ? true : false;
 }
 
 static const unsigned int BUFSIZE = 1024;
@@ -95,8 +95,8 @@ bool File::CreateNewTempFile(string* path) {
   if (uRetVal == 0) {
     return false;
   }
-  string str = Wstr2Str(szTempName);
-  path->assign(str.c_str(), strlen(str.c_str()));
+  //string str = Wstr2Str(szTempName);
+  path->assign(szTempName, strlen(szTempName));
   return true;
 }
 
