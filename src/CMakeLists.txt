@@ -132,6 +132,9 @@ add_library(kml STATIC ${kmlSrc})
 
 target_link_libraries(kml ws2_32)
 target_link_libraries(kml expat)
+target_link_libraries(kml uriparser)
+target_link_libraries(kml zlib)
+target_link_libraries(kml minizip)
 
 
 install(TARGETS kml 

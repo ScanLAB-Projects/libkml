@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\zlib-1.2.3\contrib\minizip\build\CMakeFiles\3696f97cca5cd87e874c5638f15b4435\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97838069-C65F-3664-9C48-665C365BDD2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

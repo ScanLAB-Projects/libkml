@@ -11,12 +11,17 @@ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${GCC_LINK_FLAGS}")
 
 include_directories(src)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/boost_1_34_1)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/expat.win32)
+#include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/expat.win32)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/libexpat-R_2_2_5/install/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/uriparser-0.7.5/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/zlib-1.2.3)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/zlib-1.2.3/)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/zlib-1.2.3/contrib)
 
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/libexpat-R_2_2_5/install/lib)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/uriparser-0.7.5/build/install/lib)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/zlib-1.2.3.win32/lib)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/zlib-1.2.3/contrib/minizip/build/install/lib) 
+
 
 add_subdirectory(src)
 add_subdirectory(examples)

@@ -1,0 +1,7 @@
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/include/uriparser/Uri.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/include/uriparser/UriBase.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/include/uriparser/UriDefsAnsi.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/include/uriparser/UriDefsConfig.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/include/uriparser/UriDefsUnicode.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/include/uriparser/UriIp4.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/uriparser-0.7.5/build/install/lib/uriparser.lib

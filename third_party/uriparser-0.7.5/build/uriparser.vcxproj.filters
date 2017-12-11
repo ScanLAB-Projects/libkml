@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriCommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriCompare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriEscape.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriFile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriIp4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriIp4Base.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriNormalize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriNormalizeBase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriParse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriParseBase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriQuery.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriRecompose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriResolve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\lib\UriShorten.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\reuben\Desktop\softwareDev\ScanLABLibrary\ext\libkml\third_party\uriparser-0.7.5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1A58C596-5241-3A30-9B10-31EB215B182E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

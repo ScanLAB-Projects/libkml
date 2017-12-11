@@ -1,0 +1,7 @@
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/include/crypt.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/include/ioapi.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/include/iowin32.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/include/mztools.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/include/unzip.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/include/zip.h
+C:/Users/reuben/Desktop/softwareDev/ScanLABLibrary/ext/libkml/third_party/zlib-1.2.3/contrib/minizip/build/install/lib/minizip.lib
